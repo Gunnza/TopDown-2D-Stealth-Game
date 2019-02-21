@@ -1,0 +1,98 @@
+4
+[
+0
+-1
+
+Hello little stranger. My name is LumberJack and I am ok. Watch out for the wolf on the bridge over there.
+!_@~~@_!
+Hello little stranger. I sleep all night and I work all day. Watch out for the wolf on the bridge over there.
+!_@~~@_!
+false
+false
+
+0
+
+
+true
+3
+[
+Can you help me defeat the wolf.
+!_@~~@_!
+1
+
+true
+]
+[
+I have your flowers, can you help me now.
+!_@~~@_!
+2
+
+true
+]
+[
+Please, please, please help me :)
+!_@~~@_!
+3
+
+true
+]
+]
+[
+1
+0
+
+No, I am afraid I cant little one. I need some wildflowers first. 
+If you pick them for me I will be able to help you with the nasty wolf.
+!_@~~@_!
+
+!_@~~@_!
+true
+false
+GetMeSomeMushrooms
+0
+SeenTheWolf
+
+true
+0
+]
+[
+2
+2
+
+Of course little one, tell him I'll be there soon.
+!_@~~@_!
+
+!_@~~@_!
+false
+false
+WoodsmanWillHelp
+1
+player
+SetMushrooms
+false
+3
+mushrooms
+-
+10
+GetMeSomeMushrooms
+mushrooms>=10
+true
+0
+]
+[
+3
+-1
+
+Sorry I really need those flowers before I can help you.
+!_@~~@_!
+
+!_@~~@_!
+false
+false
+
+0
+GetMeSomeMushrooms,!WoodsmanWillHelp
+mushrooms<10
+true
+0
+]

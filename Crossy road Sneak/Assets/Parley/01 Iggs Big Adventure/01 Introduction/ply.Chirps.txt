@@ -1,0 +1,227 @@
+8
+[
+0
+-1
+
+Hello <name> you might be a little confused, you see you just hatched. Bit unexpected so soon. But not to worry your mom left me here with instructions on what to do.
+
+First you will need to learn all your skills and then make your way to your mom. Got that.
+
+I will happily help you learn your skills.
+!_@~~@_!
+Hey <name> what you waiting for, your mom must be really worried. Learn your skills and make you way to her.
+!_@~~@_!
+false
+true
+Started
+0
+
+
+true
+4
+[
+Tell me about my skills.
+!_@~~@_!
+2
+
+true
+]
+[
+What Am I.
+!_@~~@_!
+1
+
+true
+]
+[
+What Am I.
+!_@~~@_!
+6
+
+true
+]
+[
+What now?
+!_@~~@_!
+5
+
+true
+]
+]
+[
+1
+0
+
+Ah you have 10 gold coins great. Hand it over and I will tell you all about Squiggles.
+!_@~~@_!
+
+!_@~~@_!
+true
+false
+
+0
+!DoneLearningSkils
+gold>=10
+true
+1
+[
+Here is your 10 coins.
+!_@~~@_!
+7
+
+true
+]
+]
+[
+2
+-1
+
+Well Squiggles have 2 skills you need to learn to use.
+
+You can jump and you can knock things over.
+!_@~~@_!
+
+!_@~~@_!
+false
+false
+SkillAsked
+0
+!DoneLearningSkils
+
+true
+4
+[
+Tell me about Jumping.
+!_@~~@_!
+3
+
+true
+]
+[
+Tell me about knocking things over.
+!_@~~@_!
+4
+
+true
+]
+[
+What Am I.
+!_@~~@_!
+6
+
+true
+]
+[
+What Am I.
+!_@~~@_!
+1
+
+true
+]
+]
+[
+3
+2
+
+Well to jump you need only press SPACE bar. The longer you hold it the further you will jump. Be carefull though you don't want to jump too high or you will fall to your death.
+!_@~~@_!
+
+!_@~~@_!
+true
+false
+FoundOutAboutJumping
+1
+player
+BroadcastJumps
+false
+0
+
+
+true
+0
+]
+[
+4
+2
+
+Well Squigles have the ability to knock things over. It might seem reasonably trivial, but in truth you can knock things about that are 10 times your weight. This is pretty impressive.
+
+Walk up to the object you want to knock over and ram into it.
+!_@~~@_!
+Well Squigles have the ability to knock things over. It might seem reasonably trivial, but in truth you can knock things about that are 10 times your weight. This is pretty impressive.
+
+Go look at the bridge over there.
+!_@~~@_!
+false
+false
+LearntAboutKnocking
+0
+
+
+true
+0
+]
+[
+5
+-1
+
+Now you need to leave the island and go find your mom. Good luck little one.
+!_@~~@_!
+What are you waiting for, it's time to go find your mom.
+!_@~~@_!
+false
+false
+
+0
+DoneLearningSkils
+
+true
+0
+]
+[
+6
+-1
+
+I would like to tell you all about the <name> tell you what if you collect 10 gold coins pieces from around the little island. I will tell you.
+!_@~~@_!
+You are back but you don't seem to have my 10 gold coins. You only have <gold> gold go collect more from around the island and I will tell you what you want to know.
+!_@~~@_!
+false
+false
+
+1
+player
+ShowGold
+false
+0
+!DoneLearningSkils,!LearnAboutSquigles
+gold<10
+true
+0
+]
+[
+7
+0
+
+Now you see <name> you are a Squiggle, a little creature that grows in eggs and hatches able to talk and move around.
+
+You are fairly vulnerable in your early life so be very carefull of deep water and falling too far.
+!_@~~@_!
+
+!_@~~@_!
+false
+false
+LearnAboutSquigles
+1
+player
+gold
+true
+3
+gold
+-
+10
+
+
+true
+0
+]

@@ -1,0 +1,28 @@
+Find your mom
+
+!_@~~@_!
+
+!_@~~@_!
+
+!_@~~@_!
+0
+0
+FoundMom
+0
+Started
+1
+[
+Find your mom on the third island.
+!_@~~@_!
+
+!_@~~@_!
+
+1
+0
+0
+false
+SpokeToMom
+
+0
+Started
+]

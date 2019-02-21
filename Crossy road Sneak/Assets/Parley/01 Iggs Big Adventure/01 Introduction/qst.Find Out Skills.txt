@@ -1,0 +1,92 @@
+Find Out Skills
+Ask Chirps about the skills you can use, then try each skill.
+!_@~~@_!
+Well done you now ready to leave the home and make your way to your mom.
+!_@~~@_!
+I learnt all about my skills and how to use them for my big adventure. Now its time to find my way to mom.
+!_@~~@_!
+0
+0
+DoneLearningSkils
+1
+player
+StopBroadcastingJumps
+false
+0
+Started
+5
+[
+Ask Chirps about jumping.
+!_@~~@_!
+Chirps told me about jumping, you use the SPACE bar holding it down. The longer you hold it the further you jump. But I must be carefull or I might jump too far and get injured.
+!_@~~@_!
+
+1
+0
+0
+false
+FoundOutAboutJumping
+
+0
+
+]
+[
+Find out about knocking things.
+!_@~~@_!
+When I walk up to the object I want to knock and bump into it it will be nocked over.
+!_@~~@_!
+
+1
+0
+0
+false
+LearntAboutKnocking
+
+0
+
+]
+[
+Try Jumping <count> times.
+!_@~~@_!
+
+!_@~~@_!
+
+3
+0
+0
+false
+Jump
+
+0
+FoundOutAboutJumping
+]
+[
+Cross the water by knocking the bridge over.
+!_@~~@_!
+
+!_@~~@_!
+
+1
+0
+0
+false
+BridgeKnocked
+
+0
+LearntAboutKnocking
+]
+[
+Learn about Squigils
+!_@~~@_!
+
+!_@~~@_!
+
+1
+0
+0
+true
+LearnAboutSquigles
+
+0
+SkillAsked
+]

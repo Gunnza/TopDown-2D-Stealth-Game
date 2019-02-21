@@ -1,0 +1,28 @@
+Pick Some Wildflowers
+You need to pick some Wildflowers in order to get some help from the LumberJack
+!_@~~@_!
+I now have the Wildflowers, best I head over to the lumberjack and hand them in.
+!_@~~@_!
+I gave the LumberJack some Wildflowers so he would help me defeat the big bad wolf.
+!_@~~@_!
+0
+0
+GotAllTheMushrooms
+0
+GetMeSomeMushrooms
+1
+[
+Get 10 Wildflowers for the woodsman,
+!_@~~@_!
+I have the Wildflowers and should return to the woodsman.
+!_@~~@_!
+
+1
+0
+0
+false
+WoodsmanWillHelp
+
+0
+
+]

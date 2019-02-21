@@ -1,0 +1,53 @@
+2
+[
+0
+-1
+
+you found a hidden stash! there appears to be no hidden traps, and 5 gold coins waiting for the taking.
+!_@~~@_!
+You already took the coins
+!_@~~@_!
+false
+false
+
+0
+
+
+true
+1
+[
+Take the coins
+!_@~~@_!
+1
+
+true
+]
+]
+[
+1
+0
+
+You take the 5 coins
+!_@~~@_!
+
+!_@~~@_!
+true
+false
+
+2
+player
+gold
+true
+3
+gold
++
+5
+player
+ShowGold
+false
+0
+
+
+true
+0
+]

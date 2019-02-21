@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 8331bcbcb7794ce46afc38bcea73338f
+timeCreated: 1457557750
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: OfficeSceneArt_0
+    21300002: OfficeSceneArt_1
+    21300004: OfficeSceneArt_2
+    21300006: OfficeSceneArt_3
+    21300008: OfficeSceneArt_4
+    21300010: OfficeSceneArt_5
+    21300012: OfficeSceneArt_6
+    21300014: OfficeSceneArt_7
+    21300016: OfficeSceneArt_8
+    21300018: yeahhhhhhhh
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: OfficeSceneArt_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 552
+        width: 103
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OfficeSceneArt_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 552
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OfficeSceneArt_2
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 502
+        width: 384
+        height: 225
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OfficeSceneArt_3
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 514
+        width: 384
+        height: 218
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OfficeSceneArt_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 353
+        width: 125
+        height: 182
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OfficeSceneArt_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 358
+        width: 73
+        height: 171
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OfficeSceneArt_6
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 268
+        width: 384
+        height: 225
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OfficeSceneArt_7
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 259
+        width: 408
+        height: 234
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OfficeSceneArt_8
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 12
+        width: 408
+        height: 234
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: yeahhhhhhhh
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 411
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

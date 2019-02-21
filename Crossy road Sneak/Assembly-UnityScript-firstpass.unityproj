@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{8F94EF53-95FC-439C-63C3-C92DF9B3C04F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;UNITY_ADS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_view_video_play.xml" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Plugins\Android\unityads\proguard-project.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\qst.Find your mom.txt" />
+     <None Include="Assets\Plugins\Android\unityads\build.xml" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\qst.Pick Some Wildflowers.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Larry.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.AndDarryl.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_button_audio_toggle.xml" />
+     <None Include="Assets\Addons\Easy Save 2\changelog.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Hidden Stash.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Woodsman.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\qst.Find Out Skills.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Wolf.txt" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\ply.Myself.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_background_button_pause.xml" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\qst.ShowBossTheKey.txt" />
+     <None Include="Assets\Addons\Easy Save 2\readme.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\qst.Pick Some Mushrooms.txt" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\qst.GetBathroomKey.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\qst.Escape the Office.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_triangle.xml" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Darryl.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_waves.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_base.xml" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\qst.Defeat The Wolf.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Mom.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_play.xml" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Chirps.txt" />
+     <None Include="Assets\savefile.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_button_pause.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_view_video_paused.xml" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\ply.Worker1.txt" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\ply.Boss.txt" />
+     <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2">
+ <HintPath>C:/Users/Chris/Documents/Unity Projects/Crossy road Sneak/Assets/Addons/Plugins/ES2.dll</HintPath>
+ </Reference>
+ <Reference Include="MoodkieSecurity">
+ <HintPath>C:/Users/Chris/Documents/Unity Projects/Crossy road Sneak/Assets/Addons/Plugins/MoodkieSecurity.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

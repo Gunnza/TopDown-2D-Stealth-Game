@@ -1,0 +1,42 @@
+2
+[
+0
+-1
+
+Darryl just looks at you rather blankly. The silence grows uncomfortable and he looks away.
+!_@~~@_!
+
+!_@~~@_!
+true
+false
+SpokeToDarryl
+0
+SpokeToLarry
+
+true
+1
+[
+Well ok
+!_@~~@_!
+0
+Larry
+true
+]
+]
+[
+1
+0
+Larry
+Darryl blushes and looks away.
+!_@~~@_!
+
+!_@~~@_!
+true
+false
+
+0
+Porcupine
+
+true
+0
+]

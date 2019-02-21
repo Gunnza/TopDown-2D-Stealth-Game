@@ -1,0 +1,47 @@
+Defeat The Wolf
+There is a wolf blocking my way. I need to figure out how to get him to let me past or I will never find my Mother.
+!_@~~@_!
+The lumberjack agreed to assist with the nasty wolf.
+!_@~~@_!
+The wolf was so scared of the LumberJack he simply ran away.
+!_@~~@_!
+0
+0
+
+0
+SeenTheWolf
+2
+[
+Get some help to pass the wolf. There might be someone in the area that will assist.
+!_@~~@_!
+The LumberJack has agreed to assist me.
+!_@~~@_!
+
+1
+0
+0
+false
+WoodsmanWillHelp
+
+0
+
+]
+[
+Now that the LumberJack has agreed to help me I should face the Wolf.	
+!_@~~@_!
+I faced the wolf, he was a complete coward.
+!_@~~@_!
+
+1
+0
+0
+false
+FacedTheWolf
+
+1
+player
+MakeWolfRunAway
+false
+0
+WoodsmanWillHelp
+]

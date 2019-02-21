@@ -1,0 +1,25 @@
+1
+[
+0
+-1
+
+Darryl shuffles as he looks at his feet. You really cant tell if he has the skill to talk at all.
+!_@~~@_!
+
+!_@~~@_!
+true
+false
+AndSpokeToDarryl
+0
+SpokeToDarryl
+
+true
+1
+[
+Erm ok then
+!_@~~@_!
+0
+Larry
+true
+]
+]

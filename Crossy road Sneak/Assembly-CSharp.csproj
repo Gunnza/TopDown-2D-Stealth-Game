@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F41FF510-C9AD-03B6-1459-51296B548C6B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_3;UNITY_2017_2;UNITY_2017;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Addons\Easy Save 2\ES2Init.cs" />
+     <Compile Include="Assets\Addons\Easy Save 2\Examples\Creating an Automatic Save Structure\ES2UniqueID.cs" />
+     <Compile Include="Assets\Addons\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueGameLogic.cs" />
+     <Compile Include="Assets\Addons\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueObjectManager.cs" />
+     <Compile Include="Assets\Addons\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueSaveManager.cs" />
+     <Compile Include="Assets\Addons\Easy Save 2\Examples\Save and Load Prefabs Instantiated at Runtime\PrefabManager.cs" />
+     <Compile Include="Assets\Addons\Easy Save 2\Examples\Shared Assets\Scripts\MyExampleScript.cs" />
+     <Compile Include="Assets\Addons\Easy Save 2\Examples\Upload and Download a Texture\UploadDownloadTexture.cs" />
+     <Compile Include="Assets\Addons\Easy Save 2\Types\ES2_AudioClip.cs" />
+     <Compile Include="Assets\Addons\Easy Save 2\Types\ES2_Sprite.cs" />
+     <Compile Include="Assets\Addons\PolyNav2D\Scripts\Runtime\AStar.cs" />
+     <Compile Include="Assets\Addons\PolyNav2D\Scripts\Runtime\PolyNav2D.cs" />
+     <Compile Include="Assets\Addons\PolyNav2D\Scripts\Runtime\PolyNavAgent.cs" />
+     <Compile Include="Assets\Addons\PolyNav2D\Scripts\Runtime\PolyNavObstacle.cs" />
+     <Compile Include="Assets\FadeInScene.cs" />
+     <Compile Include="Assets\Parley Assets\Gui\TestGui.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\Command.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\Conversation.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\Dialog.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\DialogGuiAbstract.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\DialogGuiBasic.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\DialogGuiObject.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\Objective.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\Option.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\Parley.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\ParleyEnviromentInfo.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\Quest.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\QuestGuiAbstract.cs" />
+     <Compile Include="Assets\Parley Assets\Scripts\QuestGuiBasic.cs" />
+     <Compile Include="Assets\Payments.cs" />
+     <Compile Include="Assets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Scripts\ClickToMove.cs" />
+     <Compile Include="Assets\Scripts\ClickToMoveMouse.cs" />
+     <Compile Include="Assets\Scripts\Coins.cs" />
+     <Compile Include="Assets\Scripts\CollectedPubVoucher.cs" />
+     <Compile Include="Assets\Scripts\DeathObject.cs" />
+     <Compile Include="Assets\Scripts\DeathObjectPlayer.cs" />
+     <Compile Include="Assets\Scripts\DoorOpen.cs" />
+     <Compile Include="Assets\Scripts\Dosser.cs" />
+     <Compile Include="Assets\Scripts\EnemySight.cs" />
+     <Compile Include="Assets\Scripts\Fade.cs" />
+     <Compile Include="Assets\Scripts\GUIDead.cs" />
+     <Compile Include="Assets\Scripts\GUIWin.cs" />
+     <Compile Include="Assets\Scripts\IntroScene.cs" />
+     <Compile Include="Assets\Scripts\Kockout.cs" />
+     <Compile Include="Assets\Scripts\LevelGenerator.cs" />
+     <Compile Include="Assets\Scripts\LevelGeneratorNoGuard.cs" />
+     <Compile Include="Assets\Scripts\LG2Guards.cs" />
+     <Compile Include="Assets\Scripts\LoadOperations.cs" />
+     <Compile Include="Assets\Scripts\LoadScore.cs" />
+     <Compile Include="Assets\Scripts\LoudFloor.cs" />
+     <Compile Include="Assets\Scripts\LoudFloorHearing.cs" />
+     <Compile Include="Assets\Scripts\MenuGUI.cs" />
+     <Compile Include="Assets\Scripts\MoveBetween.cs" />
+     <Compile Include="Assets\Scripts\MoveTo.cs" />
+     <Compile Include="Assets\Scripts\OfficeObjective.cs" />
+     <Compile Include="Assets\Scripts\OpenDoor.cs" />
+     <Compile Include="Assets\Scripts\patrolOn.cs" />
+     <Compile Include="Assets\Scripts\PickUpSFX.cs" />
+     <Compile Include="Assets\Scripts\PlayerCollideWithObject.cs" />
+     <Compile Include="Assets\Scripts\PrefabsManager.cs" />
+     <Compile Include="Assets\Scripts\PubVoucher.cs" />
+     <Compile Include="Assets\Scripts\SaveRandom.cs" />
+     <Compile Include="Assets\Scripts\Settings.cs" />
+     <Compile Include="Assets\Scripts\ShowTitle.cs" />
+     <Compile Include="Assets\Scripts\SwipeDetector.cs" />
+     <Compile Include="Assets\Scripts\UpdateScore.cs" />
+     <Compile Include="Assets\SetPlayer.cs" />
+     <Compile Include="Assets\showAds.cs" />
+     <Compile Include="Assets\Sqiggle\Script\BridgeBump.cs" />
+     <Compile Include="Assets\Sqiggle\Script\CoinRotate.cs" />
+     <Compile Include="Assets\Sqiggle\Script\CollectItems.cs" />
+     <Compile Include="Assets\Sqiggle\Script\IggScript.cs" />
+     <Compile Include="Assets\Sqiggle\Script\MenuControl.cs" />
+     <Compile Include="Assets\Sqiggle\Script\MouseLook.cs" />
+     <Compile Include="Assets\Sqiggle\Script\WolfControl.cs" />
+     <Compile Include="Assets\UserAttributes.cs" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\qst.Find your mom.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\qst.Pick Some Wildflowers.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Larry.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.AndDarryl.txt" />
+     <None Include="Assets\Addons\Easy Save 2\changelog.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Hidden Stash.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Woodsman.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\qst.Find Out Skills.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Wolf.txt" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\ply.Myself.txt" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\qst.ShowBossTheKey.txt" />
+     <None Include="Assets\Addons\Easy Save 2\readme.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\qst.Pick Some Mushrooms.txt" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\qst.GetBathroomKey.txt" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\qst.Escape the Office.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Darryl.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\qst.Defeat The Wolf.txt" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Mom.txt" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Parley\01 Iggs Big Adventure\01 Introduction\ply.Chirps.txt" />
+     <None Include="Assets\savefile.txt" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\ply.Worker1.txt" />
+     <None Include="Assets\Parley\Office\OfficeLevel1\ply.Boss.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2">
+ <HintPath>C:/Users/Chris/OneDrive/Documents/Backup Stuff/Internal Hardrive/Unity Projects/Crossy road Sneak/Assets/Addons/Plugins/ES2.dll</HintPath>
+ </Reference>
+ <Reference Include="MoodkieSecurity">
+ <HintPath>C:/Users/Chris/OneDrive/Documents/Backup Stuff/Internal Hardrive/Unity Projects/Crossy road Sneak/Assets/Addons/Plugins/MoodkieSecurity.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

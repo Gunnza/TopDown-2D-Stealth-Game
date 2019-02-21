@@ -1,0 +1,42 @@
+2
+[
+0
+-1
+
+Mannnnnn, I really want to see the game. 
+!_@~~@_!
+
+!_@~~@_!
+false
+false
+
+0
+
+
+true
+1
+[
+I going to see it now, give me the bathroom key 
+!_@~~@_!
+1
+
+true
+]
+]
+[
+1
+-1
+
+AWW fuck , good luck man thats gona be risky. Here you go 
+!_@~~@_!
+
+!_@~~@_!
+true
+false
+GotBathroomKey
+0
+
+
+true
+0
+]
