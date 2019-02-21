@@ -3,4 +3,4 @@ A Topdown-2D-Stealth-EndlessRunner-Game for Mobile devices. This was the first m
 I have it mostly completed.
 
 
-# Add the .apk to your android device for playability of the prototype.  
+Add the .apk to your android device for playability of the prototype.  
