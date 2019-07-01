@@ -10,6 +10,5 @@ Add the OfficeEscapeStealth.apk to your android device for playability of the pr
 
 [Trailer](https://youtu.be/KO0_s82cNIg)
 
-![Screenshot]
-(https://static.wixstatic.com/media/0f442e_9d72acd851654741ae77608f92ddeb1c.png/v1/fill/w_308,h_505,al_c,q_80,usm_0.66_1.00_0.01/0f442e_9d72acd851654741ae77608f92ddeb1c.webp)
+![Screenshot](https://static.wixstatic.com/media/0f442e_9d72acd851654741ae77608f92ddeb1c.png/v1/fill/w_308,h_505,al_c,q_80,usm_0.66_1.00_0.01/0f442e_9d72acd851654741ae77608f92ddeb1c.webp)
 
